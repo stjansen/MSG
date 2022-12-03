@@ -9,7 +9,6 @@ def missileLauncher(
 ):
     if verbose >= 1:
         print("\n-- Missile launcher --")
-    if verbose >= 2:
         print(f"Missile send: {is_hostile}")
     
     missile_hit = False

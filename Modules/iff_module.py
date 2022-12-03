@@ -38,7 +38,7 @@ def convertToDigitFullEntry(entry, verbose = 0):
 # Identification Friend or Foe (IFF)
 def iff(entry, verbose = False):
     if verbose >= 1:
-        print("-- IFF --")
+        print("\n-- IFF --")
     entry_digits = convertToDigitFullEntry(entry, verbose)
     is_hostile = isHostile(entry_digits, verbose)
     if verbose >= 1:
